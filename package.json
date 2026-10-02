@@ -1,0 +1,22 @@
+{
+  "name": "moyu-escape",
+  "version": "0.1.0",
+  "private": true,
+  "type": "2d",
+  "uuid": "7ef15255-df30-49e3-bdc9-8b1c44ca781e",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build:web": "vite build",
+    "test": "node --import tsx --test tests/**/*.test.ts",
+    "check": "tsc -p tsconfig.test.json --noEmit && npm test && npm run build:web"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0"
+  }
+}

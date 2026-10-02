@@ -1,0 +1,13 @@
+library/
+temp/*
+!temp/tsconfig.cocos.json
+local/
+build/
+profiles/
+node_modules/
+dist/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
